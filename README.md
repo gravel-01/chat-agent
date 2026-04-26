@@ -1,5 +1,8 @@
 # 高情商聊天回复助手
 
+https://github.com/user-attachments/assets/43bcbabf-1949-4a1a-8798-99aa5c29780d
+
+
 一个本地桌面端 AI 聊天回复助手。
 
 当前主流程是：
