@@ -65,15 +65,7 @@ python -m apps.desktop.main
 python chat_assistant.py
 ```
 
-## 为什么之前会报错
 
-之前你在正确环境里运行仍然报错，不是环境问题，而是代码问题：
-
-- `apps/desktop/controller.py` 在整理过程中变成了残缺文件
-- `AppController` 里缺少 `start_capture` 等方法
-- 所以即使依赖正确，也会在启动时直接抛 `AttributeError`
-
-这个问题现在已经修回到至少可导入、可启动链路校验通过的状态。
 
 ## 当前依赖策略
 
