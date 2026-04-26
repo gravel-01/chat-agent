@@ -1,0 +1,22 @@
+# Default desktop runtime for:
+#   python -m apps.desktop.main
+# Current default config uses OCR_BACKEND="api" and HOTKEY_ENABLED defaults to false.
+
+PyQt5==5.15.11
+requests==2.32.5
+pypdf==6.5.0
+mss==10.1.0
+
+# Optional: local OCR mode (OCR_BACKEND=local)
+# paddlepaddle
+# paddleocr
+# Pillow
+# numpy
+
+# Optional: extra PDF fallback backends
+# PyMuPDF
+# PyPDF2
+# pdfplumber
+
+# Optional: non-Windows global hotkey fallback
+# keyboard
